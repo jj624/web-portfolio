@@ -31,7 +31,7 @@ header {
     width: 100%;
     position: relative;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 90px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -240,6 +240,12 @@ header {
     text-decoration: none;
 }
 
+/* modal */
+.modal-body img {
+    width: 100%;
+}
+
+
 
 /* etc */
 #etc h1 {
@@ -389,6 +395,7 @@ header {
     bottom: 40px;
     cursor: pointer;
     z-index: 99;
+    display: none;
 }
 
 .top-btn img {
