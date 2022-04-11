@@ -18,15 +18,6 @@ body {
     margin: 0 auto;
 }
 
-/* .container {
-    height: 6480px;
-    background-image: url(../images/grazie-info.jpg);
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-    position: relative;
-} */
-
 .container {
     width: 1600px;
     margin: 0 auto;
@@ -46,7 +37,7 @@ body {
     border-radius: 25px;
     padding: 10px 40px;
     position: absolute;
-    top: 370px;
+    top: 420px;
     left: 105px;
 }
 
@@ -62,6 +53,110 @@ body {
     border-radius: 25px;
     padding: 10px 40px;
     position: absolute;
-    top: 370px;
+    top: 420px;
     left: 105px;
+}
+
+
+/* aesop */
+#aesop .container a {
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: none;
+    color: var(--text-color);
+    border: 3px solid var(--main-color1);
+    border-radius: 25px;
+    padding: 10px 40px;
+    position: absolute;
+    top: 450px;
+    left: 105px;
+}
+
+
+#aesop .container a:hover {
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid var(--main-color1);
+    background-color: var(--main-color1);
+    transition: 0.3s;
+    border-radius: 25px;
+    padding: 10px 40px;
+    position: absolute;
+    top: 450px;
+    left: 105px;
+}
+
+
+/* tidy */
+#tidy .container a {
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: none;
+    color: var(--text-color);
+    border: 3px solid var(--main-color1);
+    border-radius: 25px;
+    padding: 10px 40px;
+    position: absolute;
+    top: 500px;
+    left: 105px;
+}
+
+
+#tidy .container a:hover {
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid var(--main-color1);
+    background-color: var(--main-color1);
+    transition: 0.3s;
+    border-radius: 25px;
+    padding: 10px 40px;
+    position: absolute;
+    top: 500px;
+    left: 105px;
+}
+
+
+/* hanmaum */
+#hanmaum .container a {
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: none;
+    color: var(--text-color);
+    border: 3px solid var(--main-color1);
+    border-radius: 25px;
+    padding: 10px 40px;
+    position: absolute;
+    top: 450px;
+    left: 105px;
+}
+
+
+#hanmaum .container a:hover {
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid var(--main-color1);
+    background-color: var(--main-color1);
+    transition: 0.3s;
+    border-radius: 25px;
+    padding: 10px 40px;
+    position: absolute;
+    top: 450px;
+    left: 105px;
+}
+
+.top-btn {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    cursor: pointer;
+}
+
+.top-btn img {
+    width: 50px;
 }

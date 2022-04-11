@@ -16,6 +16,9 @@
 body {
     background-color: var(--bg-color);
     font-family: 'Montserrat', 'SCDream';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -25,6 +28,7 @@ header {
 
 #home {
     height: 100vh;
+    width: 100%;
     position: relative;
     margin: 0 auto;
     margin-top: 80px;
@@ -132,16 +136,7 @@ header {
     transition: 0.3s;
 }
 
-@media (max-width:980px) {
-    #home .title-text h1 {
-        font-size: 40px;
-        left: 50px;
-    }
-    #home .title-text h1:last-child {
-        top: 400px;
-        left: 50px;
-    }
-}
+
 
 
 /* about */
@@ -153,7 +148,7 @@ header {
 }
 
 .animate__animated.animate__pulse {
-    --animate-duration: 1.5s;
+    --animate__infinite: infinite;
   }
 
 .about-info1 h2 {
@@ -191,6 +186,20 @@ header {
 .card {
     margin-bottom: 100px;
 }
+
+.img-box {
+    overflow: hidden;
+}
+
+.img-box > img {
+    transition: 1s;
+    transform: 1.5s;
+}
+
+.img-box:hover > img {
+    transform: scale(1.2);
+}
+
 
 #works h1 {
     font-weight: 900;
@@ -270,6 +279,7 @@ header {
 /* contact */
 #contact {
     height: 100vh;
+    width: 100%;
     position: relative;
     margin: 0 auto;
     padding-top: 50px;
@@ -369,3 +379,67 @@ header {
     font-size: 20px;
 }
 
+.animate__bounceIn {
+    --animate-duration: 2s;
+}
+
+.top-btn {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.top-btn img {
+    width: 50px;
+}
+
+
+@media (max-width:900px) {
+    body {
+        width: 100%;
+    }
+
+    #home .title-text h1 {
+        font-size: 36px;
+        left: 30px;
+    }
+    #home .title-text h1:last-child {
+        top: 400px;
+        left: 30px;
+    }
+    #home .container {
+        width: 100%;
+    }
+
+    #home .title-group h1 {
+        font-size: 100px;
+    }
+
+    .about-info1 h2 {
+        font-size: 24px;
+    }
+
+    .about-info1 p {
+        font-size: 20px;
+    }
+
+    #contact .title-text h3 {
+        font-size: 28px;
+    }
+
+    #contact .title-text h2 {
+        font-size: 30px;
+    }
+
+    #contact .title-text p {
+        font-size: 18px;
+    }
+
+    #contact .title-group h1 {
+        font-size: 20px;
+    }
+    
+    
+}
