@@ -256,6 +256,20 @@ header {
     margin-top: 50px;
 }
 
+#etc .book > .etc-btn {
+    padding: 8px 20px;
+    margin-top: 10px;
+}
+
+#etc .book {
+    margin-bottom: 7px;
+}
+
+#etc .book h4 {
+    margin-bottom: 30px;
+}
+
+
 #etc .etc-btn{
     border: 1px solid var(--text-color);
     border-radius: 20px;
@@ -280,6 +294,7 @@ header {
 #etc .card img {
     object-fit: cover;
 }
+
 
 
 /* contact */
