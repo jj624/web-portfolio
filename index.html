@@ -32,10 +32,10 @@
                   <a class="nav-link" href="#about">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#works">WORKS</a>
+                  <a class="nav-link" href="#publish">PUBLISHING</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#etc">ETC</a>
+                  <a class="nav-link" href="#design">DESIGN</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">CONTACT</a>
@@ -99,8 +99,8 @@
                 <div class="about-text">
                   <h2>SKILLS</h2>
                   <p>
-                    Photoshop / Iilustrator / After Effect Premiere Pro <br>
-                    Figma / HTML / CSS / Javascript / Jquery
+                    Photoshop / Iilustrator / After Effect / Premiere Pro / Figma <br>
+                    HTML / CSS / Javascript / Jquery / Bootstrap
                   </p>
                 </div>
                 <div class="about-text">
@@ -115,9 +115,9 @@
       </div><!-- container -->
   </section>
 
-  <section id="works">
+  <section id="publish">
     <div class="container py-5">
-        <h1 class="text-center animate__animated animate__fadeInDown">WORKS</h1>
+        <h1 class="text-center animate__animated animate__fadeInDown">PUBLISHING</h1>
         <div class="row">
             <div class="col-sm-4">
                 <div class="card p-0">
@@ -181,9 +181,9 @@
     </div><!-- container -->
 </section>
 
-<section id="etc">
+<section id="design">
   <div class="container py-5">
-      <h1 class="text-center animate__animated animate__fadeInDown">ETC</h1>
+      <h1 class="text-center animate__animated animate__fadeInDown">DESIGN</h1>
       <div class="row">
           <div class="col-sm-4">
               <div class="card p-0">
@@ -197,12 +197,12 @@
 
           <div class="col-sm-4">
               <div class="card p-0">
-                <a href="#" class="img-box" target="blank"><img src="./images/event-banner.jpg" alt="Card image" class="card-img-top"></a>
+                <a href="#myModal1" data-bs-toggle="modal" data-bs-target="#myModal1" class="img-box" target="blank"><img src="./images/event-banner.jpg" alt="Card image" class="card-img-top"></a>
                   <div class="card-body text-center">
                       <h4 class="card-title">이벤트 배너 디자인</h4>
-                      <button type="button" class="etc-btn" data-bs-toggle="modal" data-bs-target="#myModal1">
+                      <a class="etc-btn" data-bs-toggle="modal" data-bs-target="#myModal1">
                         자세히보기
-                      </button>
+                      </a>
                   </div>
               </div><!--card-->
               <div class="modal" id="myModal1">
@@ -227,12 +227,12 @@
 
           <div class="col-sm-4">
               <div class="card p-0">
-                <a href="#" class="img-box" target="blank"><img src="./images/skin-banner.jpg" alt="Card image" class="card-img-top"></a>
+                <a href="#myModal2" data-bs-toggle="modal" data-bs-target="#myModal2" class="img-box" target="blank"><img src="./images/skin-banner.jpg" alt="Card image" class="card-img-top"></a>
                   <div class="card-body text-center">
                       <h4 class="card-title">상품 배너 디자인</h4>
-                      <button type="button" class="etc-btn" data-bs-toggle="modal" data-bs-target="#myModal2">
+                      <a class="etc-btn" data-bs-toggle="modal" data-bs-target="#myModal2">
                         자세히보기
-                      </button>
+                      </a>
                   </div>
               </div><!--card-->
               
@@ -244,7 +244,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                       <h4 class="modal-title">상품 배너 디자인</h4>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      <a type="button" class="btn-close" data-bs-dismiss="modal"></a>
                     </div>
               
                     <!-- Modal body -->
@@ -257,6 +257,39 @@
               </div>
               
           </div><!--col-sm-4-->
+
+          <div class="col-sm-4">
+            <div class="card p-0">
+              <a href="#myModal3" data-bs-toggle="modal" data-bs-target="#myModal3" class="img-box" target="blank"><img src="./images/travel-leaflet.jpg" alt="Card image" class="card-img-top"></a>
+                <div class="card-body text-center">
+                    <h4 class="card-title">관광지 리플릿</h4>
+                    <a class="etc-btn" data-bs-toggle="modal" data-bs-target="#myModal3">
+                      자세히보기
+                    </a>
+                </div>
+            </div><!--card-->
+            
+            <!-- The Modal -->
+            <div class="modal" id="myModal3">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">관광지 리플릿</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="./images/gyeongbok.jpg" alt="skin">
+                  </div>
+            
+                </div>
+              </div>
+            </div>
+            
+        </div><!--col-sm-4-->
       </div><!--row-->
   </div><!-- container -->
 </section>

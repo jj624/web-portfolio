@@ -26,6 +26,10 @@ header {
     background-color: #F7F8FF;
 }
 
+.nav-item {
+    margin-left: 30px;
+}
+
 #home {
     height: 100vh;
     width: 100%;
@@ -182,7 +186,7 @@ header {
 }
 
 
-/* works */
+/* publish */
 .card {
     margin-bottom: 100px;
 }
@@ -201,7 +205,7 @@ header {
 }
 
 
-#works h1 {
+#publish h1 {
     font-weight: 900;
     font-size: 58px;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -219,26 +223,29 @@ header {
     margin-bottom: 25px;
 }
 
-#works .works-btn {
-    border: 1px solid var(--text-color);
+
+
+#publish .works-btn {
     border-radius: 20px;
-    background-color: var(--secondary-color1);
-    color: var(--text-color);
-    padding: 5px 20px;
-    font-size: 18px;
+    background-color: var(--main-color2);
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 16px;
     text-decoration: none;
 }
 
-#works .works-btn:hover {
-    border: 1px solid var(--text-color);
+#publish .works-btn:hover {
+    border: 1px solid var(--main-color2);
     border-radius: 20px;
-    background-color: var(--main-color2);
+    background-color: #fff;
     transition: 0.3s;
-    color: #fff;
-    padding: 5px 20px;
-    font-size: 18px;
+    color: var(--main-color2);
+    padding: 10px 25px;
+    font-size: 16px;
     text-decoration: none;
 }
+
+
 
 /* modal */
 .modal-body img {
@@ -247,8 +254,8 @@ header {
 
 
 
-/* etc */
-#etc h1 {
+/* design */
+#design h1 {
     font-weight: 900;
     font-size: 58px;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -256,43 +263,39 @@ header {
     margin-top: 50px;
 }
 
-#etc .book > .etc-btn {
-    padding: 8px 20px;
-    margin-top: 10px;
-}
-
-#etc .book {
+#design .book {
     margin-bottom: 7px;
 }
 
-#etc .book h4 {
+#design .book h4 {
     margin-bottom: 30px;
 }
 
 
-#etc .etc-btn{
-    border: 1px solid var(--text-color);
-    border-radius: 20px;
-    background-color: var(--secondary-color2);
-    color: var(--text-color);
-    padding: 5px 20px;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-#etc .etc-btn:hover {
-    border: 1px solid var(--text-color);
+#design .etc-btn{
     border-radius: 20px;
     background-color: var(--main-color1);
-    transition: 0.3s;
     color: #fff;
-    padding: 5px 20px;
-    font-size: 18px;
+    padding: 10px 25px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#design .etc-btn:hover {
+    border: 1px solid var(--main-color1);
+    border-radius: 20px;
+    background-color: #fff;
+    transition: 0.3s;
+    color: var(--main-color1);
+    padding: 10px 25px;
+    font-size: 16px;
     text-decoration: none;
 }
 
-#etc .card img {
+#design .card img {
     object-fit: cover;
+    width: 100%;
 }
 
 
